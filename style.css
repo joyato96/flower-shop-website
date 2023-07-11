@@ -144,6 +144,8 @@
 
 .sign-up-info {
     padding-left: 200px;
+    align-items: center;
+    text-align: center;
 }
 
 .sign-up-img {
@@ -169,6 +171,45 @@
     font-weight: 200px;
     padding-bottom: 10px;
 }
-span{
+
+span {
     color: #E55473;
+}
+
+/* insta container related styles */
+.insta-container {
+    align-items: center;
+    text-align: center;
+
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500px;
+    margin-top: 30px;
+    padding-bottom: 8px;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 200px;
+    padding-bottom: 10px;
+}
+/* image container related styles */
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    background-color: white;
+    margin-top: 8px;
+    gap: 3px;
+}
+.img-pri{
+    width: 100px;
+    height: 130px;
 }
