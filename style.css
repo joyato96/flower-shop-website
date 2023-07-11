@@ -5,19 +5,34 @@
 }
 
 /* banner related styles here */
-.banner {
+.nav-container{
     display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding-top: 10px;
     justify-content: space-around;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+}
+.banner {
+    padding: 25px 25px 0px 135px;
+    display: flex;
     align-items: center;
-    width: 100%;
-    background: rgba(229, 84, 115, 0.10);
-    background-position: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-content {
+    max-width: 450px;
 }
 
 .btn-primary {
     border-radius: 5px;
     background: #E55473;
-    padding: 10px 25px;
+    padding: 5px 10px;
 }
 
 .banner-title {
@@ -30,14 +45,14 @@
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
     padding-bottom: 15px;
 }
 
 .banner-image {
-    width: 230px;
+    width: 300px;
 }
 
 .banner-content {
@@ -74,12 +89,11 @@
 .flower {
     display: flex;
     justify-content: space-around;
-    width: 50%;
-    height: 200px;
-    margin: auto;
-    background-color: white;
-    margin-top: 8px;
-    gap: 10px;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 5px;
 }
 
 .img-primary {
@@ -88,6 +102,7 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 30px 18px 0px 18px;
+    box-shadow: 3px 7px 3px gray;
 }
 
 .img-name {
@@ -96,6 +111,7 @@
     font-size: 7px;
     font-style: normal;
     font-weight: 700;
+    padding-top: 10px;
 }
 
 .secondary {
@@ -137,9 +153,9 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.055);
 }
 
 .sign-up-info {
@@ -152,6 +168,8 @@
     width: 200px;
     height: 200px;
     padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .sign-up-title {
@@ -191,25 +209,106 @@ span {
     margin-top: 30px;
     padding-bottom: 8px;
 }
-.insta-description{
+
+.insta-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 7px;
     font-style: normal;
     font-weight: 200px;
     padding-bottom: 10px;
 }
+
 /* image container related styles */
-.img-container{
+.img-container {
     display: flex;
-    justify-content: space-around;
+    margin: auto;
     width: 50%;
     height: 200px;
-    margin: auto;
     background-color: white;
     margin-top: 8px;
-    gap: 3px;
+    gap: 10px;
 }
-.img-pri{
-    width: 100px;
-    height: 130px;
+
+.img-pri {
+    width: 160px;
+    height: 180px;
+    box-shadow: 3px 7px 3px gray;
+}
+
+/* subscribe container related styles */
+.subscribe-container {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    background-image: url('images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+
+}
+.enter-email{
+    padding:10px 170px 10px 10px;
+}
+.subscriber-email {
+    display: flex;
+    width: 10px;
+    margin: auto;
+    align-items: center;
+    padding-right: 440px;
+    padding-left: 280px;
+    gap: 5px;
+    border-radius: 8px;
+
+}
+
+.subscriber-info {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.subscriber-title {
+    color: #272727;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 4px;
+}
+
+.subscriber-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 200px;
+    padding-bottom: 10px;
+}
+
+/*footer container related styles  */
+.footer-container {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.footer-info {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.footer-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 400;
 }
